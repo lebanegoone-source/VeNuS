@@ -106,20 +106,36 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
       - positive lookahead and “stop before ck”
   
 *ALICE**Cgecy2MY2MWbaqt**
+
 *ANNA**w8NvY27qkpdePox**
+
 *NATALIA**NMuc4DkYKDsmZ5z**
+
 *EVA**upsCA3UFu10fDAO**
+
 *CLARA**39YziWp5gSvgQN9**
+
 *FRIDA**Ed4ErEUJEaMcXli**
+
 *ELIZA**Fg6b6aoksceQqB9**
+
 *IRIS**kYjyoLcnBZ9EJd**
+
 *ELOISE**yOUJlV0SHOnbSPm**
+
 *LUCY**uvMwFDQrQWPMeGP**
-*ISABEL**H5ol8Z2mrRsorC0**                        2jA0E8bQ4WrGwWZ
+
+*ISABEL**H5ol8Z2mrRsorC0**
+2jA0E8bQ4WrGwWZ
+
 *FREYA**EEDyYFDwYsmYawj**
+
 *ALEXA**mxq9O3MSxxX9Q3S**
+
 *ARIEL**33EtHoz9a0w2Yqo**
+
 *LOLA**d3LieOzRGX5wud6**
+
 *CELESTE**VLSNMTKwSV2o8Tn**
 
 *NINA**ixpeqdWuvC5N9kG**
@@ -158,5 +174,5 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
 
     strings trash | grep -i DPH OR strings -n 10 trash
     OUTPUT= \nh1hnDPHpydEjoEN
-\n is just binary data
+    \n is just binary data
 

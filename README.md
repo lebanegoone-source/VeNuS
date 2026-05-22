@@ -68,7 +68,7 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
 *ISLA;S PASSWORD *D3XTob0FUImsoBb**
 
     Unzipping files
-      Use {unzip -o passw0rd.zip-d /tmp} to create a temporary file and unzip it.
+      Use {unzip -o passw0rd.zip -d /tmp} to create a temporary file and unzip it.
         - -o - to prevent overwriting the file.
         - -d - for extraction.
         - /tmp - to create a temporary file.
@@ -105,9 +105,9 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
       (?=ck)
       - positive lookahead and “stop before ck”
   
-alice/Cgecy2MY2MWbaqt
-anna/w8NvY27qkpdePox
-natalia/NMuc4DkYKDsmZ5z
+*alice**Cgecy2MY2MWbaqt**
+*anna**w8NvY27qkpdePox**
+*natalia**NMuc4DkYKDsmZ5z**
 eva/upsCA3UFu10fDAO
 clara/39YziWp5gSvgQN9
 frida/Ed4ErEUJEaMcXli
@@ -115,9 +115,48 @@ eliza/Fg6b6aoksceQqB9
 iris/kYjyoLcnBZ9EJd
 eloise/yOUJlV0SHOnbSPm
 lucia/uvMwFDQrQWPMeGP
-isabel/H5ol8Z2mrRsorC0
+isabel/H5ol8Z2mrRsorC0                        2jA0E8bQ4WrGwWZ
 freya/EEDyYFDwYsmYawj
 alexa/mxq9O3MSxxX9Q3S
 ariel/33EtHoz9a0w2Yqo
 lola/d3LieOzRGX5wud6
 celeste/VLSNMTKwSV2o8Tn
+
+nina/ixpeqdWuvC5N9kG
+
+mysql -u celeste -p
+    MariaDB [(none)]> SHOW DATABASES;
+    mysqldump -u celeste -p venus > /tmp/dump.sql
+mysqldump --skip-lock-tables -u celeste -p venus > /tmp/dump.sql
+cat /tmp/dump.sql
+rep "^(" /tmp/dump.sql | cut -d"'" -f2 | grep -Fxf <(cut -d: -f1 /etc/passwd)
+
+kira/tPlqxSKuT4eP3yr
+
+curl -X PUT http://localhost/method.php
+
+veronica/QTOel6BodTx2cwX
+
+curl -A "PARADISE" http://localhost/waiting.php
+
+lana/UWbc0zNEVVops1v
+
+alias | grep lana
+
+Noa/9WWOPoeJrq6ncvJ
+
+cd /dev/shm
+mkdir extract
+cp /pwned/lana/zip.gz ./archive.tar
+tar --strip-components=2 -xf archive.tar -C extract
+find extract
+cd extract
+ls -la
+cat zip
+
+maia/h1hnDPHpydEjoEN
+
+strings trash | grep -i DPH OR strings -n 10 trash
+OUTPUT= \nh1hnDPHpydEjoEN
+\n is just binary data
+

@@ -105,3 +105,19 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
       (?=ck)
       - positive lookahead and “stop before ck”
   
+alice/Cgecy2MY2MWbaqt
+anna/w8NvY27qkpdePox
+natalia/NMuc4DkYKDsmZ5z
+eva/upsCA3UFu10fDAO
+clara/39YziWp5gSvgQN9
+frida/Ed4ErEUJEaMcXli
+eliza/Fg6b6aoksceQqB9
+iris/kYjyoLcnBZ9EJd
+eloise/yOUJlV0SHOnbSPm
+lucia/uvMwFDQrQWPMeGP
+isabel/H5ol8Z2mrRsorC0
+freya/EEDyYFDwYsmYawj
+alexa/mxq9O3MSxxX9Q3S
+ariel/33EtHoz9a0w2Yqo
+lola/d3LieOzRGX5wud6
+celeste/VLSNMTKwSV2o8Tn

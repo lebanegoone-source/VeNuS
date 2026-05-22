@@ -124,39 +124,39 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
 
 *NINA**ixpeqdWuvC5N9kG**
 
-mysql -u celeste -p
-    MariaDB [(none)]> SHOW DATABASES;
-    mysqldump -u celeste -p venus > /tmp/dump.sql
-mysqldump --skip-lock-tables -u celeste -p venus > /tmp/dump.sql
-cat /tmp/dump.sql
-rep "^(" /tmp/dump.sql | cut -d"'" -f2 | grep -Fxf <(cut -d: -f1 /etc/passwd)
+    mysql -u celeste -p
+        MariaDB [(none)]> SHOW DATABASES;
+        mysqldump -u celeste -p venus > /tmp/dump.sql
+    mysqldump --skip-lock-tables -u celeste -p venus > /tmp/dump.sql
+    cat /tmp/dump.sql
+    rep "^(" /tmp/dump.sql | cut -d"'" -f2 | grep -Fxf <(cut -d: -f1 /etc/passwd)
 
 *KIRA**tPlqxSKuT4eP3yr**
 
-curl -X PUT http://localhost/method.php
+    curl -X PUT http://localhost/method.php
 
 *VERONICA**QTOel6BodTx2cwX**
 
-curl -A "PARADISE" http://localhost/waiting.php
+    curl -A "PARADISE" http://localhost/waiting.php
 
 *LANA**UWbc0zNEVVops1v**
 
-alias | grep lana
+    alias | grep lana
 
 *NOA**9WWOPoeJrq6ncvJ**
 
-cd /dev/shm
-mkdir extract
-cp /pwned/lana/zip.gz ./archive.tar
-tar --strip-components=2 -xf archive.tar -C extract
-find extract
-cd extract
-ls -la
-cat zip
+    cd /dev/shm
+    mkdir extract
+    cp /pwned/lana/zip.gz ./archive.tar
+    tar --strip-components=2 -xf archive.tar -C extract
+    find extract
+    cd extract
+    ls -la
+    cat zip
 
 *maia**h1hnDPHpydEjoEN**
 
-strings trash | grep -i DPH OR strings -n 10 trash
-OUTPUT= \nh1hnDPHpydEjoEN
+    strings trash | grep -i DPH OR strings -n 10 trash
+    OUTPUT= \nh1hnDPHpydEjoEN
 \n is just binary data
 

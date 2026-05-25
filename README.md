@@ -155,11 +155,11 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
 
     curl -A "PARADISE" http://localhost/waiting.php
 
-*LANA**UWbc0zNEVVops1v**
+*LANA *UWbc0zNEVVops1v**
 
     alias | grep lana
 
-*NOA**9WWOPoeJrq6ncvJ**
+*NOA *9WWOPoeJrq6ncvJ**
 
     cd /dev/shm
     mkdir extract
@@ -170,9 +170,101 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
     ls -la
     cat zip
 
-*maia**h1hnDPHpydEjoEN**
+*maia *h1hnDPHpydEjoEN**
 
     strings trash | grep -i DPH OR strings -n 10 trash
     OUTPUT= \nh1hnDPHpydEjoEN
     \n is just binary data
 
+*GLORIA'S PASSWORD *v7xUVE2e5bjUcxw**
+
+    for a in {a..z}; do
+      for b in {a..z}; do
+        echo "Trying: v7xUVE2e5bjUc$a$b"
+        echo "v7xUVE2e5bjUc$a$b" | su gloria -c "whoami" >/dev/null 2>&1 && echo "PASSWORD FOUND: v7xUVE2e5bjUc$a$b" && break 2
+      done
+    done
+    
+    v7xUVE2e5bjUc??
+
+*ALORA'S PASSWORD *mhrTFCoxGoqUxtw**
+
+    python3
+    from PIL import Image
+    
+    lines = [line for line in open("qr_ascii.txt").read().splitlines() if line.strip()]
+    
+    w = max(len(line) for line in lines)
+    h = len(lines)
+    
+    img = Image.new("RGB", (w, h), "white")
+    
+    for y, line in enumerate(lines):
+        for x, ch in enumerate(line):
+            if ch == "#":
+                img.putpixel((x, y), (0, 0, 0))
+    
+    img = img.resize((500, 500))
+    img.save("qr.png")
+    
+    print("saved qr.png")from PIL import Image
+    
+    lines = [line for line in open("qr_ascii.txt").read().splitlines() if line.strip()]
+    
+    w = max(len(line) for line in lines)
+    h = len(lines)
+    
+    img = Image.new("RGB", (w, h), "white")
+    
+    for y, line in enumerate(lines):
+        for x, ch in enumerate(line):
+            if ch == "#":
+                img.putpixel((x, y), (0, 0, 0))
+    
+    img = img.resize((500, 500))
+    img.save("qr.png")
+    
+    print("saved qr.png")
+    
+    
+    OR
+    
+    USE: QrazyBox ASCII QR Decoder
+    
+    Then:
+    
+    Open qr_ascii.txt
+    STEP 1:Copy all the text
+    SETP 2:In QrazyBox:
+    STEP 3:click Import
+    STEP 4:choose Text
+    STEP 5:paste the ASCII block
+        Set:
+        # = black
+        spaces = white
+        Decode/read QR
+
+*JULIE'S PASSWORD *sjDf4i2MSNgSvOv**
+
+    unzip -l /tmp/extracted.zip
+        unzip /tmp/extracted.zip -d /tmp/music
+    
+    Then change the directory to /tmp/music
+
+*IRENE'S PASSWORD *8VeRLEFkBpe2DSD**
+
+    diff <(sort 1.txt) <(sort 2.txt)
+    OR
+    comm -3 <(sort 1.txt) <(sort 2.txt)
+    
+    *comm*- compares two sorted files line by line.
+    *sort 1.txt*- sorts the data in 1.txt in alphabetical order.
+    *<(sort 1.txt)*- creates a temp virtual file containing the output of the command.
+    *sort 1.txt > sorted1.txt*- Linux creates a temporary stream automatically.
+    *-3*- hide lines common to both files.
+        So the command only shows:
+    
+        lines unique to file1
+        lines unique to file2
+
+*ADELA'S PASSWORD ***

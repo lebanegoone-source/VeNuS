@@ -267,4 +267,50 @@ EMMA'S PASSWORD *fIvltaGaq0OUH8O*
         lines unique to file1
         lines unique to file2
 
-*ADELA'S PASSWORD ***
+*ADELA'S PASSWORD *nbhlQyKuaXGojHx**
+
+    **openssl rsautl -decrypt -inkey id_rsa.pem -in pass.enc**
+     -Use this RSA private key to decrypt the encrypted file
+    
+    This launches the OpenSSL toolkit.
+    
+    OpenSSL is a command-line program used for:
+    
+    encryption
+    decryption
+    certificates
+    hashing
+    key generation
+    SSL/TLS operations
+    
+    rsautl
+    
+    This means:
+    
+    “Use RSA utility operations.”
+    
+    RSA is a public/private key cryptography system.
+    
+    Typical RSA flow:
+    
+    Public key → encrypt
+    Private key → decrypt
+    
+    or
+    
+    Private key → sign
+    Public key → verify
+    
+    -decrypt
+    
+    This tells OpenSSL:
+    
+    “We are decrypting data.”
+    
+    -inkey id_rsa.pem
+    
+        -This specifies the private key file to use.
+    
+    -in pass.enc
+        -This specifies the encrypted input file.
+    
